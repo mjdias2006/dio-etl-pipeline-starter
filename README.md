@@ -7,6 +7,9 @@
 
 *Um pipeline simples de ETL (Extract, Transform, Load) para automação de análise de portfólios de clientes.*
 
+## 📸 Visão Geral do Código
+<img src="assets/main_script_overview.png" alt="Estrutura do Código ETL" width="800px">
+
 </div>
 
 ## 📝 Projeto
@@ -17,10 +20,9 @@ Este repositório contém uma implementação prática de **ETL**. O objetivo é
 - **Transform:** Lógica de negócio que sugere diversificação de investimentos com base no perfil do cliente.
 - **Load:** Exportação do arquivo final em formato `JSON`.
 
-## 📁 Estrutura
-```text
-├── data/
-│   └── processed/          # Dados transformados (.json)
-├── main.py                 # Script principal de execução
-├── README.md               # Documentação do projeto
-└── requirements.txt        # Dependências do projeto
+## 🚀 Como executar
+1. Clone o repositório.
+2. Certifique-se de ter o Python instalado.
+3. Execute o script principal:
+   ```bash
+   python main.py
