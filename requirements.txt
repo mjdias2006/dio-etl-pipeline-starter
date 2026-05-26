@@ -1,0 +1,2 @@
+# Lista de bibliotecas
+# Como o projeto usa apenas a biblioteca padrão, este arquivo está vazio.
